@@ -1,4 +1,7 @@
+const webpack =require('webpack');
 const path = require('path');
+const HtmlWebpackPlugin =require('html-webpack-plugin');
+
 module.exports = {
   entry: [
     'webpack-dev-server/client?http://localhost:3000',
@@ -16,6 +19,12 @@ module.exports = {
       template:'./index.tpl.html',
       inject:'body',
       filename:'index.html'
+    }),
+    new webpack.optimize.OccurrenceOrderPlugin(),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin(),
+    new webpack.DefinePlugin({
+      'process.env.NODE_ENV':JSON.stringify('development')
     })
   ],
   module: {
