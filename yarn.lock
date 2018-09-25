@@ -1966,6 +1966,12 @@ find-up@^3.0.0:
   dependencies:
     locate-path "^3.0.0"
 
+flex-grid-sass@smalleast/flex-grid-sass:
+  version "1.0.0"
+  resolved "https://codeload.github.com/smalleast/flex-grid-sass/tar.gz/b287d7ffc124435508c58034ba00bb624865ebde"
+  dependencies:
+    global "^4.3.2"
+
 flush-write-stream@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/flush-write-stream/-/flush-write-stream-1.0.3.tgz#c5d586ef38af6097650b49bc41b55fabb19f35bd"
@@ -2099,7 +2105,7 @@ global-modules-path@^2.1.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/global-modules-path/-/global-modules-path-2.3.0.tgz#b0e2bac6beac39745f7db5c59d26a36a0b94f7dc"
 
-global@^4.3.0:
+global@^4.3.0, global@^4.3.2:
   version "4.3.2"
   resolved "https://registry.yarnpkg.com/global/-/global-4.3.2.tgz#e76989268a6c74c38908b1305b10fc0e394e9d0f"
   dependencies:

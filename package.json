@@ -30,6 +30,7 @@
     "babel-preset-react": "^6.24.1",
     "css-loader": "^1.0.0",
     "extract-text-webpack-plugin": "^3.0.2",
+    "flex-grid-sass": "smalleast/flex-grid-sass",
     "html-webpack-plugin": "^3.2.0",
     "json-loader": "^0.5.7",
     "less": "^3.8.1",
