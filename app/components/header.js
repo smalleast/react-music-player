@@ -4,7 +4,7 @@ import './header.less'
 export default class Header extends React.Component {
   render() {
     return (
-      <div className="component-Header row row-center">
+      <div className="components-header row row-center">
         <div className="mr20">
           <img src="/static/images/logo.png" width="40" alt="" />
         </div>
